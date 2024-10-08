@@ -1,0 +1,42 @@
+button{
+   background-color: black;
+   color: white;
+}
+.header{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.task{
+ 
+  margin: 10px 0px;
+  background-color: black;
+  padding: 15px;
+  width: 460px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.list{
+    color: aliceblue;
+   
+    /* width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 30px; */
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+p{
+    margin: 0;
+}
+.line_through{
+    text-decoration: line-through;
+}
